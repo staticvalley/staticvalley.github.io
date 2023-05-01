@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div>
+  {{ .Content }}
+  <div class="row">
+    <script src="/js/select_post.js"></script>
+  {{ range .Pages }}
+    {{ partial "post_card.html" . }}
+  {{ end }}
+  </div>
+</div>
+{{ end }}

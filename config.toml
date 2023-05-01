@@ -1,0 +1,6 @@
+baseURL = "https://kairosjk.github.io/"
+languageCode = "en-us"
+title = "kairos@net"
+
+[markup.goldmark.renderer]
+unsafe = true

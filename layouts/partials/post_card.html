@@ -1,0 +1,13 @@
+<div class="col-md-4 my-3">
+    <div class="clickable card w-100 h-100 p-1">
+        <img src="{{ .Params.featured_image }}" class="card-img rounded tint">
+        <div class="card-img-overlay covertint">
+            <p>{{ .Description }}</p>
+            <a href="{{ .Permalink }}"></a>
+        </div>
+        <div class="card_info px-3 pt-2">
+            <h2 class="h6" style="font-weight: 900;">{{ .Title }}</h2>
+            <p>{{ .Params.date.Format "Monday, January 02, 2006" }}</p>
+        </div>
+    </div>
+</div>
