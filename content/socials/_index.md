@@ -16,6 +16,10 @@ draft: false
     <a class="navlink rounded m-1" href="https://github.com/KairosJK">@KairosJK</a>
 </div>
 <div class="my-2 d-flex align-items-baseline flex-wrap">
+    <p class="h6 me-2 mb-0">linkedin:</p>
+    <a class="navlink rounded m-1" href="https://www.linkedin.com/in/jonathan-ko%C4%8Devar-22810b262/">Jonathan Kočevar</a>
+</div>
+<div class="my-2 d-flex align-items-baseline flex-wrap">
     <p class="h6 me-2 mb-0">spotify:</p>
     <a class="navlink rounded m-1" href="https://open.spotify.com/user/mhbliqvlki8urrk1gcf5sj9gs?si=36e8de57779941bd">@ultragauche</a>
 </div>

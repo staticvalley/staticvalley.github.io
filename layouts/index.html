@@ -1,4 +1,10 @@
 {{ define "main" }}
+<p>Hello, Im Jonathan!</p>
+<div>
+  {{ with .Params.featured_image }}
+  <img width="50%"src="{{ . }}" class="rounded tint feature_img mb-3">
+  {{ end }}
+</div>
   <div>
     {{ .Content }}
   </div>
