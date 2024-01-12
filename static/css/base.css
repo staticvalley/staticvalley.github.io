@@ -20,6 +20,17 @@ body {
     background-color: var(--secondary);
 }
 
+/* https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
 .navlink {
     padding: 2px;
     padding-left: 4px;
@@ -111,6 +122,29 @@ hr {
 .tag_card {
     background-color: var(--primary);
     color: var(--secondary);
+}
+
+.collapse_link {
+    color: var(--secondary);
+    background-image: none;
+    background-color: var(--primary);
+    text-decoration-line: none;
+}
+
+.collapse_link:hover {
+    color: var(--secondary);
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.collapse_hdr {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.collapse_text {
+    background-color: var(--secondary);
+    color: var(--primary);
 }
 
 a[href^="#fn:"],

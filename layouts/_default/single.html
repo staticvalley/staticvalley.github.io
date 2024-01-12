@@ -1,5 +1,6 @@
 {{ define "main" }}
   <div>
+    {{ if not (in .Params.tags "coop") }}
     <h2 class="h6">Author: {{ .Params.author }}</h2>
     <h2 class="h6">Date: {{ .Params.date.Format "Monday, January 02, 2006" }}</h2>
     <div class="my-2 d-flex align-items-baseline flex-wrap">
@@ -8,6 +9,12 @@
         <a class="navlink rounded m-1" style="border: 1px solid;" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
       {{ end }}
     </div>
+    {{ else }}
+    <!-- COOP POSTS ONLY -->
+    <h2 class="h6">Work Term: {{ .Params.wt }}</h2>
+    <h2 class="h6">Start Date: {{ .Params.sd }}</h2>
+    <h2 class="h6">End Date: {{ .Params.ed }}</h2>
+    {{ end }}
     <div class="mx-auto w-75">
       {{ with .Params.featured_image }}
       <img width="100%" src="{{ . }}" class="rounded tint feature_img m-3">
