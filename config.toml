@@ -1,6 +1,6 @@
-baseURL = "https://kairosjk.github.io/"
+baseURL = "https://staticvalley.github.io/"
 languageCode = "en-us"
-title = "kairos@net"
+title = "staticvalley@net"
 
 [markup.goldmark.renderer]
 unsafe = true
